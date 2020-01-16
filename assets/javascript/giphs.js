@@ -31,7 +31,7 @@ $(document).on('click', '.searchButton', function(){
             image.attr('data-still', still);
             image.attr('data-animated',animated);
             image.attr('data-state','still');
-            image.addClass('seachIage');
+            image.addClass('searchImage');
             searchDiv.append(p);
             searchDiv.append(image);
             $('#searches').append(searchDiv);
